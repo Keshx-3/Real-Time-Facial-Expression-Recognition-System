@@ -49,7 +49,7 @@ The model predicts the following seven emotions:
 
 ## 📈 Model Performance
 
-- **Training Accuracy:** ~95%  
+- **Training Accuracy:** ~85%  
 - **Validation Accuracy:** ~65%  
 
 > Validation accuracy may vary depending on dataset balance and preprocessing.
