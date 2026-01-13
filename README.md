@@ -86,5 +86,38 @@ The `webcam_test.py` script enables real-time facial expression recognition usin
 
 ---
 
-## 📁 Project Structure
+## 📁 Files
+
+Below is the description of key files used in this project:
+
+### `webcam_test.py`
+Real-time facial expression detection script.
+- Captures video feed from the webcam
+- Detects faces using Haar Cascade classifier
+- Preprocesses detected face regions
+- Predicts facial emotions using the trained CNN model
+- Displays bounding boxes and predicted emotion labels in real time
+
+---
+
+### `Real-Time Facial Expression Detection & Recognition using CNN.ipynb`
+Jupyter Notebook used for:
+- Dataset loading and preprocessing
+- CNN model construction and training
+- Model validation and performance evaluation
+- Visualization of training and validation accuracy/loss
+
+---
+
+### `Facial Expression Recognition.json`
+- Serialized CNN model architecture
+- Used to reconstruct the trained CNN model using `model_from_json()`
+
+---
+
+### `Facial_Expression.weights.h5`
+- Pre-trained weights of the CNN model
+- Loaded into the reconstructed model for inference and real-time prediction
+
+---
 
